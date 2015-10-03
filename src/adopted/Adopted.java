@@ -8,6 +8,5 @@ public class Adopted extends Child {
 	{
 		this.protectedValue = 1;
 	}
-	
-	
+
 }

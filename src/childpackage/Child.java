@@ -14,9 +14,4 @@ public class Child extends Parent{
 	{
 		return super.anotherProtectedValue;
 	}
-	
-	protected int getAnotherProtectedValue2()
-	{
-		return super.anotherProtectedValue;
-	}
 }
