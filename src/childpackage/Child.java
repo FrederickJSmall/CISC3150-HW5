@@ -1,5 +1,9 @@
 package childpackage;
+//package parentpackage;
 
-public class Child {
+import parentpackage.Parent;
 
+public class Child extends Parent{
+	
+	
 }
