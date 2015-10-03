@@ -5,5 +5,18 @@ import parentpackage.Parent;
 
 public class Child extends Parent{
 	
+	public int getProtectedValue()
+	{
+		return super.protectedValue;
+	}
 	
+	public int getAnotherProtectedValue()
+	{
+		return super.anotherProtectedValue;
+	}
+	
+	protected int getAnotherProtectedValue2()
+	{
+		return super.anotherProtectedValue;
+	}
 }

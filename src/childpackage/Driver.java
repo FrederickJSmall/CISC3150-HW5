@@ -11,6 +11,8 @@ public class Driver {
 	{
 			Child child = new Child();
 			child.publicValue = 6;
+
+			child.getAnotherProtectedValue2();
 			
 			//System.out.printf("Parent Value=%s",child.);
 			child = null;
