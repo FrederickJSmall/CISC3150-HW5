@@ -1,0 +1,14 @@
+D:\Projects\GitHub\BrooklynCollege\CISC3150\HW5\src\montecarlo>mkdir Test
+
+D:\Projects\GitHub\BrooklynCollege\CISC3150\HW5\src\montecarlo>javac -d "Test" C
+alcArea.java
+
+D:\Projects\GitHub\BrooklynCollege\CISC3150\HW5\src\montecarlo>java -classpath "
+Test" montecarlo.CalcArea
+Calculating pi for 4000000000 random points
+Established Value of PI = 3.141592653589793
+Too right quadrant of circle = 0.785401948
+Ratio (Inside Circle)->(Outside circle)= 7.85401948 : 2.14598052
+Estimated Value of PI = 12.566431168
+Points inside circle=3141607792
+Points inside circle/square=858392208
