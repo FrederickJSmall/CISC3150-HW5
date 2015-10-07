@@ -5,3 +5,14 @@ member of the first package as private. This happens as soon as you attempt to c
 Based on the links and some analysis it has been determined that a Protected member can only be accessed by other members or sub-classes. 
 With the one exception noted earlier. When the member is being accessed from a member of another package; even when it's a subclass; that member will be rendered 
 as private once the new class has been instanced.
+
+
+References
+
+Acess Modifiers
+
+Java Tutorial (Unknown) Protected access modifier in Java references http://javawebtutorial.blogspot.com/2013/11/protected-access-modifier-in-java-like.html
+
+Mishra, Sanjeev (2007) “Protected” and “Default” JAVA Access Modifiers references https://sanjusoftware.wordpress.com/2007/11/06/protected-and-default-java-keyword/
+
+Princeton.edu (Unknown) Controlling Access to Methods references http://www.cs.princeton.edu/courses/archive/spr96/cs333/java/tutorial/java/javaOO/methodaccess.html
