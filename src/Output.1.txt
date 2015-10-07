@@ -1,2 +1,7 @@
-Based on the links and some analysis it has been determined that a Protected member can only be access by other members or sub-classes. There is one exception.
-When the member is being accesses from a member of another package; even when it's a subclass; that member will be rendered as private once the new class has ben instanced.
+According to the Java Docs we know that a protected member in a package can be accessed by members of the same class, sibling classes or it's sub-classes. 
+What is not readily known is; if you attempt to access a protected member from a class that is within another package java will mark the 
+member of the first package as private. This happens as soon as you attempt to create a new instance of the class from the second package.  
+  
+Based on the links and some analysis it has been determined that a Protected member can only be accessed by other members or sub-classes. 
+With the one exception noted earlier. When the member is being accessed from a member of another package; even when it's a subclass; that member will be rendered 
+as private once the new class has been instanced.
