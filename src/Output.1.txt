@@ -1,2 +1,2 @@
-Based on the links and some analysis it has been determined that a Protected member can only be access by other memebers or sub-classes withing the same class. There is one exception.
-When the member is being accesses from a member of another package;  even when it's a subclass; that member will be rendered as private once the new class has ben instancated.
+Based on the links and some analysis it has been determined that a Protected member can only be access by other members or sub-classes. There is one exception.
+When the member is being accesses from a member of another package; even when it's a subclass; that member will be rendered as private once the new class has ben instanced.
